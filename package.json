@@ -1,0 +1,14 @@
+{
+  "name": "partyline-landing",
+  "version": "0.0.1",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-csso": "^1.0.0",
+    "gulp-less": "^3.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.5.2"
+  },
+  "scripts": {
+    "build": "gulp css"
+  }
+}

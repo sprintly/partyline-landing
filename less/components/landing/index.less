@@ -1,0 +1,342 @@
+.landing__hero {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+
+  @media (max-width: @screen-sm-min) {
+    width: 100%;
+  }
+
+  a:last-of-type {
+    margin-top: 20px;
+  }
+}
+.landing__hero .landing__button {
+  margin-top: 40px;
+}
+.landing__hero .logo {
+  font-family: 'Yellowtail', cursive;
+  font-size: 130px;
+  color: @party-primary;
+  padding-right: 4%;
+
+  @media (max-width: @screen-sm-min) {
+    font-size: 75px;
+  }
+}
+.landing__hero .tagline__primary {
+  font-weight: @fontWeight-5;
+  margin-top: -10px;
+  font-size: 30px;
+
+  @media (max-width: @screen-sm-min) {
+    font-size: 19px;
+  }
+}
+.landing__hero .tagline__secondary {
+  font-size: 21px;
+
+  @media (max-width: @screen-sm-min) {
+    font-size: 17px;
+    margin-top: 12px
+  }
+}
+.landing__hero .tagline__tertiary {
+  font-weight: @fontWeight-6;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.landing__hero .sprintly-loves-slack {
+  margin: 50px auto 0;
+  height: 76px;
+}
+.landing__hero .sprintly-loves-slack .logos__sprintly {
+  .backgroundImage('../../img/common/logos/logos__sprintly-monochrome@3x.png');
+  background-position: right;
+  height: 76px;
+  width: 45%;
+  float: left;
+}
+.landing__hero .sprintly-loves-slack .emoji__sparkling_heart {
+  background-position: center;
+  height: 50px;
+  width: 10%;
+  float: left;
+}
+.landing__hero .sprintly-loves-slack .logos__slack {
+  .backgroundImage('../../img/common/logos/logos__slack-monochrome@3x.png');
+  background-position: left;
+  height: 76px;
+  width: 45%;
+  float: left;
+}
+.landing__hero .login-button {
+  width: 180px;
+  margin: 20px auto;
+}
+.slack__conversation {
+  .backgroundImage('../../img/landing/slackConversation/slack__conversation@3x.png');
+  width: 48.6%;
+  height: 245px;
+  margin: 45px auto 40px;
+
+  @media (max-width: @screen-sm-min) {
+    .backgroundImage('../../img/mobile/landing/slackConversation/slack__conversation@3x.png');
+    width: 100%;
+    height: 305px;
+  }
+}
+.slack__searchbar {
+  .backgroundImage('../../img/landing/slackSearchbar/slack__searchbar@2x.png');
+  width: 53%;
+  height: 102px;
+  margin: 40px auto 0px;
+
+  @media (max-width: @screen-sm-min) {
+    .backgroundImage('../../img/mobile/landing/slackSearchBar/slack__searchbar@2x.png');
+    width: 100%;
+    height: 125px;
+  }
+}
+.small-action-info,
+.large-action-info {
+  margin: 10px 0;
+  text-align: center;
+}
+.small-action-info {
+  font-size: 20px;
+}
+.large-action-info {
+  font-size: 26px;
+}
+.connection-bar {
+  height: 40px;
+  width: 2px;
+  background: @party-primary;
+  margin: 0 auto;
+}
+.slack__formatted-message {
+  .backgroundImage('../../img/landing/slackFormattedMessage/slack__formatted-message@3x.png');
+  margin: 0 auto;
+  width: 47%;
+  height: 188px;
+
+  @media (max-width: @screen-sm-min) {
+    .backgroundImage('../../img/mobile/landing/slackFormattedMessage/slack__formatted-message@3x.png');
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+  }
+}
+.sprintly__item-card {
+  .backgroundImage('../../img/landing/sprintlyItemCard/sprintly__item-card@2x.png');
+  margin: 10px auto 50px;
+  width: 32%;
+  height: 142px;
+
+  @media (max-width: @screen-sm-min) {
+    width: 100%;
+    height: 125px;
+  }
+}
+.round-target {
+  .backgroundImage('../../img/landing/common/icons/target@3x.png');
+  margin: 0 auto;
+  width: 20px;
+  height: 20px;
+}
+.partyline__action-table {
+  .backgroundImage('../../img/landing/partylineActionTable/partyline__action-table@2x.png');
+  margin: 30px auto 0;
+  width: 85%;
+  height: 224px;
+
+  @media (max-width: @screen-sm-min) {
+    .backgroundImage('../../img/mobile/landing/partylineActionTable/partyline__action-table@2x.png');
+    width: 100%;
+    height: 235px;
+  }
+}
+.partyline__search-example {
+  .backgroundImage('../../img/landing/searchExample/partyline__search-example@2x.png');
+  margin: 30px auto 30px;
+  width: 100%;
+  height: 460px;
+
+  @media (max-width: @screen-sm-min) {
+    .backgroundImage('../../img/mobile/landing/searchExample/partyline__search-example@2x.png');
+    width: 100%;
+    height: 755px;
+  }
+}
+.partyline__context-create {
+  .backgroundImage('../../img/landing/contextCreate/partyline__context-create@2x.png');
+  margin: 10px auto 0;
+  width: 100%;
+  height: 505px;
+
+  @media (max-width: @screen-sm-min) {
+    .backgroundImage('../../img/mobile/landing/contextCreate/partyline__context-create@2x.png');
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 635px;
+  }
+}
+.partyline__context-archive-messages {
+  .backgroundImage('../../img/landing/contextArchiveMessages/partyline__context-archive-messages@2x.png');
+  width: 100%;
+  height: 500px;
+  float: right;
+
+  @media (max-width: @screen-sm-min) {
+    .backgroundImage('../../img/mobile/landing/contextArchiveMessages/partyline__context-archive-messages@2x.png');
+    width: 100%;
+    height: 465px;
+  }
+}
+.partyline__context-join-bar {
+  .backgroundImage('../../img/landing/contextJoinBar/partyline__context-join-bar@2x.png');
+  margin: 10px auto 0;
+  width: 100%;
+  height: 320px;
+
+  @media (max-width: @screen-sm-min) {
+    .backgroundImage('../../img/mobile/landing/contextJoinBar/partyline__context-join-bar@2x.png');
+    width: 100%;
+    height: 235px;
+  }
+}
+.partyline__context-archive-links {
+  .backgroundImage('../../img/landing/contextArchiveLinks/partyline__context-archive-links@2x.png');
+  margin: 10px auto 50px;
+  width: 100%;
+  height: 435px;
+
+  @media (max-width: @screen-sm-min) {
+    .backgroundImage('../../img/mobile/landing/contextArchiveLinks/partyline__context-archive-links@2x.png');
+    width: 100%;
+    height: 515px;
+  }
+}
+.landing__section,
+.landing__sub-section {
+  margin: 5px auto;
+  width: 100%;
+  display: inline-block;
+}
+.landing__section .sep,
+.landing__sub-section .sep {
+  border-bottom: 1px solid black;
+}
+.landing__section .header,
+.landing__sub-section .header {
+  font-weight: @fontWeight-5;
+}
+.landing__section .header {
+  font-size: 32px;
+
+  @media (max-width: @screen-sm-min) {
+    font-size: 24px
+  }
+}
+.landing__sub-section .header {
+  font-size: 26px;
+
+  @media (max-width: @screen-sm-min) {
+    font-size: 20px;
+  }
+}
+.landing__section .body,
+.landing__sub-section .body {
+  p:first-of-type {
+    margin-top: 10px;
+  }
+  span.action__blue {
+    font-weight: @fontWeight-5;
+    color: @party-primary;
+  }
+}
+.landing__section .body {
+  p {
+    margin-bottom: 0px;
+    font-size: 22px;
+
+    @media (max-width: @screen-sm-min) {
+      font-size: 16px;
+    }
+  }
+}
+.landing__sub-section .body {
+  p {
+    margin-bottom: 0px;
+    font-size: 18px;
+
+    @media (max-width: @screen-sm-min) {
+      font-size: 14px;
+    }
+  }
+}
+.landing__section.footer {
+  padding: 25px 0;
+}
+
+.beta__band {
+  margin: 0px -30px 30px -30px;
+  padding: 50px;
+}
+ /*  Compose to assets stylesheet */
+.logos__sprintly-labs {
+  .backgroundImage('../../img/landing/common/logos/logos__sprintly-labs@2x.png');
+  width: 15%;
+  height: 30px;
+  margin: 0 auto;
+
+  @media (max-width: @screen-sm-min) {
+    width: 50%;
+  }
+}
+.login__prompt {
+  padding: 75px 0;
+  margin: 0 auto;
+  width: 230px;
+
+  @media (max-width: @screen-sm-min) {
+    padding: 45px 0 25px;
+    width: 200px;
+  }
+
+  a:last-of-type {
+    margin-top: 20px;
+  }
+}
+.login__prompt .prompt {
+  text-align: center;
+  font-size: 32px;
+  padding-bottom: 20px;
+
+  @media (max-width: @screen-sm-min) {
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+}
+.landing__button {
+  width: 200px;
+  margin: 0 auto;
+
+  a {
+    font-weight: @fontWeight-5;
+    border-radius: 7px;
+    height: 45px;
+    line-height: 35px;
+    font-size: 15px;
+    border-radius: 7px;
+  }
+}
+.emoji__sparkling_heart {
+  .backgroundImage('../../img/landing/common/emoji/sparklingHeart/sparkling_heart@2x.png');
+  width: 35px;
+  height: 35px;
+  float: right;
+}

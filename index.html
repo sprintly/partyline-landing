@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>PartyLine – Project Management for Slack</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <nav class="navbar party-navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/">Partyline</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container partyline__container">
+      <div class="col-sm-12">
+        <div class="landing__hero">
+          <div class="logo">Partyline</div>
+          <div class="tagline__primary">Project Management through Slack</div>
+          <div class="tagline__secondary">Turn your Slack Conversations into project tickets.</div>
+          <div class="tagline__tertiary">Simple.</div>
+          <div class="landing__button">
+            <a class="btn party-button-secondary btn-block" target="_blank" href="https://www.getdrip.com/forms/9842168/submissions/new">GET EARLY ACCESS</a>
+            <a class="btn party-button-primary btn-block" href="https://partyline.sprint.ly/login">LOG IN</a>
+          </div>
+        </div>
+        <div class="landing__section">
+          <div class="slack__conversation"></div>
+        </div>
+        <div class="landing__section">
+          <div class="header">Work from Slack</div>
+          <div class="sep"></div>
+          <div class="body">
+            <p>Our custom slash command lets you use the power of Sprintly right from within Slack.</p>
+            <p><span class="action__blue">Create</span> new tickets or <span class="action__blue">update</span>, <span class="action__blue">delete</span> and <span class="action__blue">search</span> existing ones.</p>
+            <p>Just type <span class="action__blue">/sprintly</span> to get started.</p>
+          </div>
+        </div>
+        <div class="landing__section">
+          <div class="partyline-process">
+            <div class="slack__searchbar"></div>
+            <div class="connection-bar"></div>
+            <div class="small-action-info">Created in Slack</div>
+            <div class="connection-bar"></div>
+            <div class="slack__formatted-message"></div>
+            <div class="connection-bar"></div>
+            <div class="large-action-info">Appears in Sprintly</div>
+            <div class="connection-bar"></div>
+            <div class="round-target"></div>
+            <div class="sprintly__item-card"></div>
+          </div>
+        </div>
+        <div class="landing__section">
+          <div class="header">Search From Slack</div>
+          <div class="sep"></div>
+          <div class="body">
+            <p>Take advantage of the new Sprintly <span class="action__blue">search</span> API right from within Slack.</p>
+            <p>Our search syntax is similar to Gmail and GitHub so it’s instantly familiar.</p>
+            <p>Get visibility into what the team is working on.</p>
+          </div>
+          <div class="partyline__search-example"></div>
+        </div>
+
+        <div class="beta__band visible-xs">
+          <div class="landing__button">
+            <a class="btn party-button-secondary btn-block" target="_blank" href="https://www.getdrip.com/forms/9842168/submissions/new">JOIN THE BETA</a>
+          </div>
+        </div>
+
+        <div class="landing__section">
+          <div class="header">Never Lose Context</div>
+          <div class="sep"></div>
+          <div class="body">
+            <p>Context is valuable, and we use Slack to capture it by default.</p>
+            <p>Everytime you create a new ticket with Partyline, we <span class="action__blue">automatically</span> add a link to when it was created in your Slack channel’s history.</p>
+            <p>Never miss a <span class="action__blue">detail.</span></p>
+          </div>
+          <div class="partyline__context-create"></div>
+        </div>
+
+        <!-- Desktop Layout -->
+        <div class="landing__sub-section no-gutter hidden-xs">
+          <div class="col-md-4">
+            <div class="header">Message History</div>
+            <div class="sep"></div>
+            <div class="body">
+              <p>See exactly <span class="action__blue">what</span> was being <span class="action__blue">discussed</span> at the time when your tickets were created.</p>
+            </div>
+            <div class="partyline__context-join-bar"></div>
+          </div>
+          <div class="col-md-8">
+            <div class="partyline__context-archive-messages"></div>
+          </div>
+        </div>
+        <div class="landing__sub-section no-gutter hidden-xs">
+          <div class="col-md-4">
+            <div class="header">Asset Links</div>
+            <div class="sep"></div>
+            <div class="body">
+              <p>Easily find all the <span class="action__blue">asset links</span> shared when tickets were created.</p>
+              <p>Never lose reference to:</p>
+            </div>
+          </div>
+          <div class="partyline__context-archive-links"></div>
+        </div>
+
+        <!-- Mobile Layout -->
+        <div class="landing__sub-section visible-xs">
+          <div class="header">Message History</div>
+          <div class="sep"></div>
+          <div class="body">
+            <p>See exactly <span class="action__blue">what</span> was being <span class="action__blue">discussed</span> at the time when your tickets were created.</p>
+          </div>
+          <div class="partyline__context-archive-messages"></div>
+        </div>
+        <div class="landing__sub-section visible-xs">
+          <div class="header">Asset Links</div>
+          <div class="sep"></div>
+          <div class="body">
+            <p>Easily find all the <span class="action__blue">asset links</span> shared when tickets were created.</p>
+            <p>Never lose reference to <span class="action__blue">assets</span>, <span class="action__blue">spreadsheets</span>, <span class="action__blue">code</span> etc.</p>
+          </div>
+          <div class="partyline__context-archive-links"></div>
+        </div>
+
+
+        <div class="landing__section">
+          <div class="header">Powerful Commands</div>
+          <div class="sep"></div>
+          <div class="body">
+            <p>Anything you can do in Sprintly, you can do in Slack!</p>
+            <p>And if you ever need help, just type <span class="action__blue">/sprintly</span> help</p>
+          </div>
+          <div class="partyline__action-table"></div>
+        </div>
+        <div class="landing__section">
+          <div class="login__prompt">
+            <div class="prompt">
+              Get Started!<div class="emoji__sparkling_heart"></div>
+            </div>
+            <div class="landing__button">
+              <a class="btn party-button-secondary btn-block" target="_blank" href="https://www.getdrip.com/forms/9842168/submissions/new">JOIN THE BETA</a>
+              <a class="btn party-button-primary btn-block" href="https://partyline.sprint.ly/login">LOG IN</a>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="landing__section footer">
+          <div class="logos__sprintly-labs"></div>
+        </div>
+    </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>
