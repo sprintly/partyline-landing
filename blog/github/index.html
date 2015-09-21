@@ -15,15 +15,17 @@
   <div class="row">
     <div class="col-xs-12 single-content">
       <h1>A tool that manages GitHub Issues from Slack</h1>
-        <p>Increasingly, there are only three things I have open on my desktop:</p>
+        <p>Generally I only have four things open on my desktop:</p>
         <ol>
         	<li>Slack</li>
             <li>Text editor</li>
             <li>Terminal</li>
+            <li>Browser for testing</li>
         </ol>
       <p>Slack is the pulse of our organization. We discuss new feature ideas. We have incoming notifications, like tweets, that automatically alert us if there's a bug in <a href="https://sprint.ly">our software</a>. We make plans.</p>
         <p>But sometimes Slack can feel like a walled garden. It's great at <em>pulling in</em> notifications. It's great for conversation. But it's not great for <em>pushing out</em> action based on those inputs. If I want to react immediately, I have to use another tool.</p>
-      <p>Our team was tired of that. We think about Slack like a command center, or a <a href="https://medium.com/@benbrown/slack-is-the-operating-system-6bae1a6c0291">command line</a>. With <code>/slash</code> commands we want to be able to control things outside of Slack. The most common action after a conversation was:</p>
+      <p>Our team was tired of that. We think about Slack like a command center, or a <a href="https://medium.com/@benbrown/slack-is-the-operating-system-6bae1a6c0291">command line</a>. With <code>/slash</code> commands we want to be able to control things outside of Slack.</p>
+      <p>We noticed a trend in our own Slack room. After discussing a feature someone would finish the conversation by saying:</p>
       <p class="pullquote">"Let's file a ticket for that."</p>
       <p>So we built <a href="http://partyline.rocks">Partyline</a>.</p>
       <p>Partyline allows teams to create, delete, and manage project tickets from Slack. Currently it connects to <a href="https://guides.github.com/features/issues/">GitHub Issues</a> and <a href="https://sprint.ly">Sprintly</a>. Here's what it looks like when you create a ticket:</p>
@@ -44,7 +46,7 @@
       <p>You can also do more detailed item creation like this:</p>
       <p>
       <pre>
-      /github create Modal not closing
+      /partyline create Modal not closing
        description:when I click 'cancel', the modal doesn't close
        assignee:wookiehangover
        label:bug
@@ -55,8 +57,9 @@
     <p>We agree with <a href="https://medium.com/@benbrown/slack-is-the-operating-system-6bae1a6c0291">Ben Brown</a> when he says:</p>
     <blockquote>Slack is more than just a chat room. Slack is an operating system for a whole new class of apps. These apps will use Slack as their primary user interface, and thus be available on all platforms. They'll provide a consistent, friendly, conversational interface. And they'll do things in subtly different ways than we're used to, creating opportunities for time and cost savings, better communication and transparency, and a host of other benefits.</blockquote>
     <p>Our team has been using Partyline for over a month, and it feels like the future. Using Slack speeds up our interaction with apps (like using the command line) but within a social context (like IRC). It's the best of both worlds.</p>
-    <p class="pullquote"><a href="http://partyline.rocks">Try Partyline</a> with your team and let us know what you think!</p>
-    <p>If you're interested in a technical overview of how we built Partyline, check out: <em><a href="https://sprint.ly/blog/5-steps-to-a-slack-integration/">How to build your own Slack integration</a></em></p>
+    <p>Interested? <a href="http://partyline.rocks">Try Partyline</a> with your team and let us know what you think!</p>
+    <p style="font-size:14px;">If you're interested in a technical overview of how we built Partyline, check out: <em><a href="https://sprint.ly/blog/5-steps-to-a-slack-integration/">How to build your own Slack integration</a></em></p>
+    <p align="center"><a href="https://partyline.sprint.ly/login" class="btn-default primary">Connect GitHub Issues to Slack</a></p>
     </div>
   </div>
 </main>
