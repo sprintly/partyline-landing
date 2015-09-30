@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>The future of UI is text</title>
+<meta name="description" content="Partyline - Turn Slack into a GitHub command center">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:image"
+content="partyline.rocks/blog/img/connect-github-issues.jpg" />
+<link rel="stylesheet" href="../css/main.css">
+<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
+<script async="" src="//www.google-analytics.com/analytics.js"></script>
+</head>
+<body>
+<main class="container">
+  <div class="row">
+    <div class="col-xs-12 single-content">
+      <h1>The future of UI is text</h1>
+        <p>Software developers, sysadmins and power users use the command-line as a simple and efficient way to get work done. In many ways, entering in text commands is faster than using a mouse.</p><p>Graphical User Interfaces (those that require a mouse) have limitations. Despite attempts to standardize interfaces, all GUI applications use different menus, shortcuts, and processes for getting stuff done. Also, most GUI software is sandboxed: you can&#39;t control one application from within another.</p><p>Command-lines lost the interface wars. Most people use a mouse and interact with graphical elements on the screen. However, a popular messaging app may have rekindled the usage of the CLI amongst non-power users.</p>
+<h3 id="enter-slack">Enter Slack</h3>
+<p>Slack is a chat app for teams. It&#39;s used by over 500,000 people on a daily basis. Most of these people have never used a command-line before, but Slack has surreptitiously introduced many of them to text commands.</p><p>One of the first commands people learn is <code>/giphy</code>. This allows people to query <a href="http://giphy.com/">Giphy&#39;s database</a> for a random GIF that matches a certain keyword. For example, <code>/giphy dancing</code> might return:</p><p><img src="https://media.giphy.com/media/ZmdErsWqppgMo/giphy.gif" alt="Slack Giphy Dancing GIF"></p><p>Not only does this introduce everyday users to the concept of text commands; it also shows the power of querying outside services from a single interface.</p><p>Another popular command is <code>/remind</code>. You can use it to set a personal reminder, such as <code>/remind me to pick up the kids at 2:30pm</code>.</p>
+<h3 id="interacting-with-the-stream">Interacting with the stream</h3>
+<p>For most people, Slack is open all day on their desktop. They&#39;re interacting with it constantly. In terms of usage, it may be their most used application, and almost all of the interaction is done by typing.</p><p>Slack isn&#39;t just a chat application, it&#39;s increasingly becoming a <em>notification</em> engine. Did a customer just report a bug on Twitter? The notification appears in Slack. </p><p>But Slack isn&#39;t just a place for notifications to appear. Using the power of integrations and text commands, we can respond with action without having to leave Slack.</p><p>For example, in this case I could use an integration <a href="https://github.com/sillygwailo/Slack-Twitter">like this</a> to respond immediately.</p><p><img src="https://draftin.com:443/images/32622?token=OIz85mlt9Pk__7QxL6ZLlm_NAswHtGPG5AlMImO5WvT1fWftNWG0SqFqllLoJqJ7sz1Nj-3KlVTI3WrpXkrrfdg" alt="2015-09-29 at 2.34 PM.png">  </p>
+<h3 id="other-use-cases">Other use cases</h3>
+<p>How else could Slack be used as a command-line?</p><p>The most natural is for project management. Teams are receiving bug reports, discussing new features, and being alerted about deadlines in Slack. Why can't you create, edit, and search project tickets?</p><p>The <a href="http://partyline.rocks">Partyline integration</a> allows you to do this. You connect it to GitHub Issues or Sprintly, and use the /partyline command to manage projects from within Slack.</p><p>For example, <code>/partyline</code> pulls will show you open Pull Requests:</p><p><img src="https://draftin.com:443/images/32629?token=ZgPE5K--XK2nO00PnRzz5-Dfgo2ZikFTHePonkgTHdtHHGWUczJvyl8Ner2WOBqoZechoBZ8MO2k5PK0QUkwl4Q" alt="2015-09-29 at 5.52 PM.png"> </p><p>And <code>/partyline create Signup endpoint is 500&#39;ing label:bug</code> will create a bug ticket. </p>
+<h3 id="the-future-is-one-simple-interface">The future is one simple interface</h3>
+<p>In the past, we thought the future of computing would look complicated: lots of buttons, multiple screens, and crazy interfaces.</p><p><img src="https://draftin.com:443/images/32656?token=w3_RFXYkxvsc7HBRDKHWGxYGV_Sdw5jbxBtxTP5n2osUMbYn0qR2W3VhZGatJu5i_TuCCGz2AQ2C6n_1-QvMKGo" alt="star-trek-computer-complicated.jpg"> </p><p>I believe the future looks more like this:</p><p><img src="https://draftin.com:443/images/32657?token=ZW49jRP7a3eukYNB0Z2bvgPR_i7fyJVWTZuGKzld8xQfAoH_Ea2M295xNjSUISS2OkTKvXkFS2-gYziK_8admn8" alt="the-future-of-ui-is-text.png"> </p>
+    <p>Interested? <a href="http://partyline.rocks">Try Partyline</a> with your team and let us know what you think!</p>
+    <p style="font-size:14px;">If you're interested in a technical overview of how we built Partyline, check out: <em><a href="https://sprint.ly/blog/5-steps-to-a-slack-integration/">How to build your own Slack integration</a></em></p>
+    <p align="center"><a href="https://partyline.sprint.ly/login" class="btn-default primary">Connect GitHub Issues to Slack</a></p>
+    </div>
+  </div>
+</main>
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-27543638-8', 'auto');
+      ga('send', 'pageview');
+    </script> 
+</div>
+</body>
+</html>
